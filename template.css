@@ -1,0 +1,151 @@
+body {
+	background-color:#663F3F;
+	font-family:'Raleway', sans-serif;
+}
+
+#tekst {
+	width:100%;
+	z-index:+5;
+	position:absolute;
+}	
+
+
+header {
+	height:450px;
+	background-color:black;
+}
+
+#effect {
+	margin-top:-230px;
+	height:700px;
+	width:100%;
+	z-index:0;
+	position:absolute;
+
+}
+
+img:hover {
+	opacity:1;
+}
+
+main {
+	background-color:e8e8e8;
+}
+
+.intro {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:200px;
+	height:200px;
+	width:100%;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	padding-bottom:40px;
+	color:lightgrey;
+	letter-spacing:2px;
+	border-bottom:20px solid #251717;
+}
+
+h1 {
+	font-family:'Trade Winds', cursive;
+	font-size:30px;
+	color:#251717;
+	letter-spacing:5px;
+}
+
+.bands {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	height:350px;
+	clear:both;
+	padding-top:45px;
+	background-color:#251717;
+}
+
+.bands img {
+	margin-left:100px;
+	border:5px solid #663F3F;
+	margin-top:10px;
+}
+
+.bands img:hover {
+	border:10px solid #663F3F;
+	transform:scale(1.2,1.2);
+	transition:2s ease;
+}
+
+.promoVideo {
+	width:93.3%;
+	height:510px;
+	float:left;
+	text-align:center;
+	padding:50px;
+	padding-top:60px;
+	padding-bottom:80px;
+	border-bottom:45px solid #251717;
+	color:snow;
+	
+}
+
+h2 {
+	color:#251717;
+	text-align:center;
+	font-family:'Trade Winds', cursive;
+	font-size:50px;
+	padding-top:50px;
+	letter-spacing:5px;
+	
+}
+
+
+.promoVideo p {
+	float:right;
+	width: 45%;
+	margin-top:17px;
+	font-weight:bold;
+	line-height:28px;
+	text-align:center;
+	letter-spacing:2px;
+	color:lightgrey;
+}
+
+#important {
+	margin-top:-370px;
+	color:snow;
+	font-weight:bold;
+	font-size:15px;
+}
+
+#important a {
+	font-size:30px;
+	text-decoration:none;
+}
+
+
+#important a:hover {
+	background-color:white;
+}
+
+
+footer {
+	background-color:#251717;
+	color:snow;
+	text-align:right;
+	height:80px;
+	clear:both;
+}
+
+footer p {
+	padding:50px;
+	font-size:12px;
+	float:right;
+	margin-top:-30px;
+}
+
+footer img {
+	float:left;
+	margin-left:50px;
+	opacity:0.5;
+}
